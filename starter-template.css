@@ -1,19 +1,32 @@
 body {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  	padding-top: 30px;
+  	padding-bottom: 50px;
 }
+
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+  	padding: 40px 15px;
+  	text-align: center;
 }
+
 .myform{
 	width: 50%;
 	margin-left:auto;
 	margin-right:auto;
 }
-#radio{
+
+input[type="radio"]{
 	margin-left: 30px;
 }
+
+span{
+	font-weight: normal;
+}
+
+#reset{
+	float:right;
+	display:in-line;
+}
+
 button{
 	position:relative;
 	margin-left:248px;	
