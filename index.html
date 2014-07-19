@@ -56,56 +56,54 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>SIGN IN form</h1>
-        <p class="lead">We are glad you have decided to join us, and you are very welcome to use our services</p>
+        <h1>CONTACT FORM</h1>
+        <p class="lead">Please fill up the following contact form in order for us to answer you</p>
       </div>
 	  <div class="myform">
 		  <form role="form">
 		  	  <div class="form-group">
-				<label for="exampleInputfname">First name</label>
-				<input type="text" class="form-control" id="exampleInputfname" placeholder="Enter first name">
+				<label> Address as: </label>
+                                
+                                <input id="Mr" type="radio" name="address" value="Mr"> <label  for="Mr"><span>Mr</span></label>
+                                <input id="Mrs" type="radio" name="address" value="Mrs"> <label for="Mrs"><span>Mrs</span></label>
+                                <input id="Miss" type="radio" name="address" value="Miss"> <label for="Miss"><span>Miss</span></label>
+                                <input id="Dr" type="radio" name="address" value="Dr"> <label for="Dr"><span>Dr</span></label>
+                                <input  id="reset" type="reset" value="Reset form" style="font-weight: bold">
+			  </div>
+                          <div class="form-group">
+				<label for="fname">First name</label>
+				<input type="text" class="form-control" id="fname" placeholder="Enter first name">
 			  </div>
 			  <div class="form-group">
-				<label for="exampleInputfname">Last name</label>
-				<input type="text" class="form-control" id="exampleInputlname" placeholder="Enter last name">
+				<label for="lname">Last name</label>
+				<input type="text" class="form-control" id="lname" placeholder="Enter last name">
+			  </div>
+			  
+			  <div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter email">
+			  </div>
+			  
+			  <div class="form-group">
+				<label for="subject">Subject</label>
+				<input type="text" class="form-control" id="subject" placeholder="Subject">
 			  </div>
 			  <div class="form-group">
-				<label> Sex: </label>				
-				<input id="radio" type="radio" name="mysex" value="Man"> Man
-                <input id="radio" type="radio" name="mysex" value="Woman"> Woman				
+				<label for="body">Body</label>
+				<textarea class="form-control" id="body" placeholder="Body"></textarea>
 			  </div>
-			  <div class="form-group">
-				<label for="exampleInputEmail1">Email address</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-			  </div>
-			  <div class="form-group">
-				<label for="exampleInputPassword1">Password</label>
-				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-			  </div>
-			  <div class="form-group">
-				<label for="exampleInputSubject">Subject</label>
-				<input type="text" class="form-control" id="exampleInputSubject" placeholder="Subject">
-			  </div>
-			  <div class="form-group">
-				<label for="exampleInputBody">Body</label>
-				<textarea type="text" class="form-control" id="exampleInputSubject" placeholder="Body"></textarea>
-			  </div>
-			  <div class="form-group">
-				<label for="exampleInputFile">File input</label>
-				<input type="file" id="exampleInputFile">
-				<p class="help-block">Example block-level help text here.</p>
-			  </div>
+			  
 			  <div class="checkbox">
 				<label>
-				  <input type="checkbox"> I declare have writen the using terms and accept them.
+				  <input type="checkbox"> I do not want to receive any other email than the one regarding my query.
 				</label>
 			  </div>
 			  
-			  <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="submit" class="btn btn-primary"><span style="font-weight: bold">Submit</span></button>
+			  
 		   </form>
 	   </div>
     </div><!-- /.container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
